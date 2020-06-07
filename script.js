@@ -170,10 +170,10 @@ return movies;
 }
 
 
-/**
+/*
  * Retrieve the max movie object based on attribute
  * HINT: make sure you are comparing the right attribute
- */
+ 
 function getMaxMovieObject(movies, start, sortAttr){
   // Code from previous findMaxHelper() function
   let maximum = numbers[start];
@@ -187,6 +187,6 @@ function getMaxMovieObject(movies, start, sortAttr){
   }
   return {max_number: maximum, max_index: max_location}
 }
-
+*/
 
 
