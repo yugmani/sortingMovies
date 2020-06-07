@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <div class="container">
+        <h1>IMDB MOVIES SORTING</h1>
+        <form>
+            <label for="sort">How do you want to sort?</label><br>
+            <input type="radio" name="sort" value="id">
+            <lable for="id">Id</lable>
+            <input type="radio" name="sort" value="title">
+            <label for="title">Title</label>
+            <input type="radio" name="sort" value="rank">
+            <label for="rank">Rank</label><br>
+            <button type="button" id="btn">Submit</button>
+        </form>
+        <div id="heading"></div>
+        <!-- The div element where the movies table will be inserted --> 
+        <div id="movies-list"></div>
+    </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
